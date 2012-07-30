@@ -13,7 +13,7 @@ module Legato
         self.class.default_path + "/" + id.to_s
       end
 
-      attr_accessor :id, :name, :web_property_id, :user, :account
+      attr_accessor :id, :name, :web_property_id, :user, :account_id
 
       def initialize(attributes, user)
         self.user = user
