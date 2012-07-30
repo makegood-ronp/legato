@@ -15,7 +15,13 @@ module Legato
         end
 
         json = user.access_token.get(base_uri + path).body
-        MultiJson.decode(json)['items'].map {|item| new(item, user)}
+        decoded = MultiJson.decode(json)
+        result =
+        if decoded['items']
+          decoded['items'].map {|item| new(item, user)}
+        else
+          []
+        end
       end
     end
   end
