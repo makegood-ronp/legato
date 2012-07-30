@@ -1,4 +1,5 @@
 # Legato: Google Analytics Model/Mapper #
+cloned from Tony Pitale's repo - fixing some things we need here.
 
 ## [Check out the Wiki!](https://github.com/tpitale/legato/wiki) ##
 
