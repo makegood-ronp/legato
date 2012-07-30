@@ -19,7 +19,7 @@ module Legato
         self.user = user
         self.id = attributes['id']
         self.name = attributes['name']
-        self.account = attributes['account']
+        self.account_id = attributes['accountId']
         self.web_property_id = attributes['webPropertyId']
       end
 
